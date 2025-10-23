@@ -1,0 +1,22 @@
+* {
+  /* resatting rule*/
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f0e2c5;
+  color: #49281a;
+}
+/*heading section  */
+header {
+  border: 2px solid #000;
+  text-align: center;
+  padding: 100px 0;
+}
+h1 {
+  font-family: "Playfair Display SC", serif;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+p {
+  font-family: "Lato", sans-serif;
+}
