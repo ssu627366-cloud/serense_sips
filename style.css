@@ -6,6 +6,9 @@
   background-color: #f0e2c5;
   color: #49281a;
 }
+html {
+  scroll-behavior: smooth;
+}
 /*heading section  */
 header {
   border: 2px solid #000;
@@ -49,4 +52,67 @@ nav a {
   height: 50px;
   line-height: 50px;
   border-radius: 9px;
+}
+/* our Menu */
+#our-menu,
+#about_us,
+#contact,
+footer {
+  width: 80%;
+  margin: 20px auto;
+}
+#our-menu h2,
+#about_us h2,
+#contact h2 {
+  font-family: "Playfair Display SC", serif;
+  font-size: 2rem;
+  margin: 20px 0;
+}
+/* about us section */
+#about_us p,
+#contact p {
+  font-family: "lato", sans-serif;
+  text-align: justify;
+  padding: 10px 0;
+  line-height: 1.5;
+  font-size: 1.2em;
+}
+/* contact */
+form {
+  width: 80%;
+  margin: 10px auto;
+  font-family: "Lato", sans-serif;
+}
+form div {
+  padding: 15px 0;
+}
+.form-label {
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+.form_control {
+  width: 300px;
+  border: none;
+  outline: none;
+  border-bottom: 1px dotted #49281a;
+}
+.btm-submit {
+  background-color: #49281a;
+  color: #f0e2c5;
+  width: 200px;
+  height: 50px;
+  margin-left: 160px;
+  border: none;
+  outline: none;
+  border-radius: 9px;
+  font-size: 1em;
+}
+/* footer section */
+footer {
+  text-align: center;
+  font-family: "lato", sans-serif;
+  padding: 10px 0;
 }
