@@ -68,6 +68,32 @@ footer {
   font-size: 2rem;
   margin: 20px 0;
 }
+/* card section */
+.card {
+  border: 2px solid #000;
+  width: 300px;
+  background-color: #f0e2c5;
+  padding: 20px;
+  border-radius: 9px;
+}
+.imgTop {
+  max-width: 100%;
+  border-radius: 9px;
+}
+.cardBody {
+  text-align: center;
+  font-family: "lato", sans-serif;
+}
+.cardText {
+  line-height: 1.5;
+}
+.btnOrder {
+  padding: 10px 20px;
+  background-color: #49281a;
+  color: #f0e2c5;
+  text-decoration: none;
+  border-radius: 9px;
+}
 /* about us section */
 #about_us p,
 #contact p {
