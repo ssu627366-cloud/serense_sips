@@ -120,7 +120,8 @@ footer {
   text-decoration: none;
   border-radius: 9px;
 }
-.card_container {
+.card_container,
+.cake_container {
   display: flex;
   justify-content: center;
 }
