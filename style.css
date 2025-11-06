@@ -120,6 +120,10 @@ footer {
   text-decoration: none;
   border-radius: 9px;
 }
+.card_container {
+  display: flex;
+  justify-content: center;
+}
 /* about us section */
 #about_us p,
 #contact p {
