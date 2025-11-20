@@ -14,6 +14,13 @@ header {
   text-align: center;
   padding: 100px 0;
 }
+.img {
+  background-image: image("logo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
 header h1 {
   font-family: "Playfair Display SC", serif;
   font-size: 3rem;
@@ -174,12 +181,4 @@ footer {
   text-align: center;
   font-family: "lato", sans-serif;
   padding: 10px 0;
-}
-#uparrow {
-  background-color: #49281a;
-  color: #f0e2c5;
-  padding: 10px;
-  position: absolute;
-  border-radius: 100%;
-  text-decoration: none;
 }
