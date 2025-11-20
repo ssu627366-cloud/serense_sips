@@ -11,25 +11,26 @@ html {
 }
 /*heading section  */
 header {
-  text-align: center;
-  padding: 100px 0;
-}
-.img {
-  background-image: image("logo.jpg");
+  background-image: url(images/logo.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
+  text-align: center;
+  padding: 100px 0;
+  display: block;
+  unicode-bidi: isolate;
 }
+
 header h1 {
   font-family: "Playfair Display SC", serif;
   font-size: 3rem;
   margin-bottom: 40px;
+  background-color: transparent;
 }
 header p {
   font-family: "Lato", sans-serif;
   font-size: 1.2rem;
   margin-bottom: 55px;
+  background-color: transparent;
 }
 header a {
   font-family: "lato", sans-serif;
